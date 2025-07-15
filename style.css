@@ -1,0 +1,50 @@
+.sessaoPromocao {
+    background-color: red;
+    color: white;
+    font-size: 12px;
+}
+
+/* .sessaoMain {
+    background-image: ;
+} */
+
+.titulos {
+    /* color: white; */
+}
+
+.titulo1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+.titulo2 {
+    font-size: 85px;
+    font-weight: bold;
+}
+.titulo3 {
+    font-size: 45px;
+}
+.tituloData {
+    background-color: white;
+    color: rgb(10, 97, 217);
+    font-size: 35px;
+}
+.tituloLocal {
+    font-size: 15px;
+    font-weight: light;
+}
+
+.h5-vezes {
+    font-size: 35px;
+}
+.valor {
+    font-size: 80px;
+}
+.sifrao-preco {
+    font-size: 50px;
+}
+.valorPessoa {
+    font-size: 16px;
+}
+.paragrafos {
+    font-size: 15px;
+}
