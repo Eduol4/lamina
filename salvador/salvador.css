@@ -27,23 +27,64 @@
 }
 
 /* .imagemOndulada {
-    position: relative;
-    width: 100%;
+    width: auto;
     height: auto;
-    background-color: transparent;
-    background-image: url('../imagens/imagem-lamina-teste.jpg');
-    background-size: cover;
-    background-position: center;
-    clip-path: path("M0,100 C360,180 1080,0 1440,100 L1440,600 L0,600 Z");
-    aspect-ratio: 1440 / 600;
-} */
-
-/* Alternativa com imagem diretamente no <img>, se preferir */
-.imagemOndulada {
-    /* display: block; */
-    /* width: 100%; */
-    /* height: auto; */
     clip-path: path("M0,100 C360,180 1080,0 1440,100 L1440,600 L0,600 Z");
     overflow: hidden;
     position: relative;
+} */
+
+.imagemOndulada {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
+
+.imagemOndulada img {
+    width: 100%;
+    height: auto;
+    max-height: 50rem;
+    object-fit: cover;
+    display: block;
+    /* clip-path: path("M0,100 C360,180 1080,0 1440,100 L1440,600 L0,600 Z"); */
+}
+
+.sessaoPreco {
+    background-color: rgb(0, 116, 255);
+    position: absolute;
+    /* top: 135%;
+    left: 0;
+    right: 0;
+    z-index: 1; */
+    width: 31%;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.tituloPreco {
+    font-size: 55px;
+}
+.vezes {
+    font-size: 65px;
+}
+.valor {
+    font-size: 120px;
+}
+.sifrao {
+    font-size: 80px;
+}
+.cents {
+    font-size: 70px;
+}
+.valorPessoa {
+    font-size: 35px;
+}
+.paragrafos {
+    font-size: 38px;
+}
+.saida {
+    font-size: 45px;
+}
+.g3 {
+    font-size: 35px;
+}
+
