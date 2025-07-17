@@ -35,3 +35,57 @@ body {
 .tituloData {
     font-size: 2.75rem;
 }
+
+.imagemOndulada {
+    width: 100%;
+    height: auto;
+    max-height: 70vh;
+}
+.imagemOndulada img {
+    width: 100%;
+    height: auto;
+    /* max-height: 50rem; */
+    object-fit: cover;
+    display: block;
+}
+
+.sessaoPreco {
+    position: absolute;
+    /* top: 100%; */
+    left: 20%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    margin-top: 45rem;
+}
+.tituloPreco {
+    font-size: 70px;
+    font-weight: bold;
+}
+.vezes {
+    font-size: 110px;
+}
+.valor {
+    font-size: 225px;
+    margin-left: 2.5rem;
+    font-weight: bold;
+}
+.sifrao {
+    font-size: 140px;
+    font-weight: bold;
+}
+.cents {
+    font-size: 125px;
+    margin-top: -0.5rem;
+}
+.valorPessoa {
+    font-size: 48px;
+    margin-left: 0.5rem;
+}
+.saida {
+    font-size: 50px;
+    font-weight: bold;
+}
+.g3 {
+    font-size: 55px;
+}
