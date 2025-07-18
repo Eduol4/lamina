@@ -1,3 +1,8 @@
+html {
+    width: 1080px;
+    height: 1920px;
+}
+
 body {
     position: relative;
     height: 100vh;
@@ -17,7 +22,7 @@ body {
 
 .sessaoTitulos {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -31,11 +36,11 @@ body {
     /* font-weight: bold; */
 }
 .titulo {
-    font-size: 16rem;
+    font-size: 8rem;
     font-weight: bold;
 }
 .tituloData {
-    font-size: 2.75rem;
+    font-size: 2rem;
     letter-spacing: 0.4rem;
 }
 
@@ -64,35 +69,35 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .tituloPreco {
-    font-size: 70px;
-    font-weight: bold;
-}
-.vezes {
-    font-size: 110px;
-}
-.valor {
-    font-size: 225px;
-    margin-left: 2.5rem;
-    font-weight: bold;
-}
-.sifrao {
-    font-size: 140px;
-    font-weight: bold;
-}
-.cents {
-    font-size: 125px;
-    margin-top: -0.5rem;
-}
-.valorPessoa {
-    font-size: 48px;
-    margin-left: 0.5rem;
-}
-.saida {
     font-size: 50px;
     font-weight: bold;
 }
+.vezes {
+    font-size: 50px;
+}
+.valor {
+    font-size: 135px;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+.sifrao {
+    font-size: 80px;
+    font-weight: bold;
+}
+.cents {
+    font-size: 62.5px;
+    margin-top: -0.5rem;
+}
+.valorPessoa {
+    font-size: 24px;
+    margin-left: 0.25rem;
+}
+.saida {
+    font-size: 30px;
+    font-weight: bold;
+}
 .g3 {
-    font-size: 55px;
+    font-size: 28px;
 }
 
 .sessaoIcones {
@@ -102,15 +107,15 @@ body {
     z-index: 1;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 14px;
     line-height: 1;
 }
 .icones {
-    width: 105px;
-    height: 105px;
+    width: 50px;
+    height: 50px;
 }
 .textoIcone {
-    width: 300px;
+    width: 200px;
 }
 
 .sessaoPoliticas {
@@ -120,7 +125,7 @@ body {
     z-index: 1;
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     line-height: 1.2;
     font-weight: normal;
 }
